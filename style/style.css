@@ -1,0 +1,639 @@
+.navbar-brand img {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.navbar-brand h4 {
+  margin-left: 0.5em;
+  text-transform: capitalize;
+}
+
+.header-span1 {
+  margin-right: 5px;
+}
+.header-span2 {
+  margin-right: 5px;
+}
+.header-span3 {
+  margin-right: 5px;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar-brand .header-span1 {
+  color: rgb(112, 0, 0);
+}
+
+.nav-link {
+  color: white;
+  margin-right: 2em;
+}
+
+a:active {
+  background-color: tomato;
+}
+
+.nav-link:hover {
+  color: tomato;
+  background-color: tomato;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+/* !----------Container----- */
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2em;
+  height: 600px;
+}
+.course-card {
+}
+
+.offer-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.offer-course-card {
+  width: 400px;
+  height: 400px;
+}
+
+/*! Colors */
+
+.bg-danger {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 8, 1, 1) 0%,
+    rgba(194, 54, 0, 1) 45%,
+    rgb(179, 147, 6) 100%
+  );
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 8, 1, 1) 0%,
+    rgba(194, 54, 0, 1) 45%,
+    rgb(179, 147, 6) 100%
+  );
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer h1 {
+  padding: 20px;
+}
+
+.footer-text span {
+  color: orange;
+}
+
+.btn {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.carousel-caption {
+  height: 300px;
+}
+
+.carousel-item span {
+  color: rgb(190, 87, 27);
+}
+
+.modal-body {
+  color: white;
+  background-color: rgb(56, 55, 55);
+}
+
+.modal-footer {
+  background-color: rgba(7, 7, 7, 0.548);
+}
+
+.full-intro {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 8, 1, 1) 0%,
+    rgba(194, 54, 0, 1) 45%,
+    rgb(179, 147, 6) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+  color: white;
+}
+
+.course-offer {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.course-offer h1 {
+  color: orangered;
+}
+
+.course-card img {
+  width: 300px;
+  height: 300px;
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+}
+
+.course-card img:hover {
+  background-color: rgba(0, 0, 0, 0.274);
+}
+
+.learn-course {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 8, 1, 1) 0%,
+    rgba(194, 54, 0, 1) 45%,
+    rgb(179, 147, 6) 100%
+  );
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+
+.java {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: rgb(181, 214, 252);
+}
+
+.react {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: palegoldenrod;
+}
+
+.python {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: rgb(181, 214, 252);
+}
+
+.course-label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.course-label h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: orangered;
+}
+
+.course-label p {
+  padding: 2em;
+}
+
+.course-label1 img {
+  height: 300px;
+  width: 500px;
+}
+
+/* !About US page-------------- */
+
+.about-us-intro {
+  padding: 0.5em 2em;
+}
+
+.about-us-intro span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em;
+}
+.about-us h3 {
+  margin-top: 1em;
+}
+.course-label11 img {
+  height: 300px;
+  width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+}
+
+.team-members {
+  width: 100%;
+  margin-top: 2em;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.my-card {
+  width: 350px;
+  background-color: burlywood;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.705);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.my-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.my-card h1 {
+  margin-top: 1em;
+}
+
+.my-card p {
+  text-align: center;
+}
+
+.image {
+  margin-top: -6em;
+  border-radius: 50%;
+  padding: 0.5em;
+  background: linear-gradient(45deg, rgb(230, 61, 61), rgb(243, 220, 91));
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.555);
+}
+
+.icons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+
+.icons i:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+.my-card:hover {
+  transition: all 0.5s ease-in;
+  transform: perspective(1000px) rotate3D(0, 1, 0, 30deg);
+  background-color: rgba(222, 184, 135, 0.548);
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.members h1 {
+  color: orange;
+}
+
+.courses-provide {
+  padding: 0.5em 2em;
+  font-weight: bold;
+  color: orangered;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+.courses-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin-top: 2em;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+  transition: transform 0.5s ease-in-out;
+}
+
+.courses-card i {
+  padding: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.courses-card h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.courses-card p {
+  text-align: center;
+}
+
+.courses-card:hover {
+  transition: all 0.5s ease-in;
+  transform: perspective(1000px) rotate3d(0, 1, 0, 30deg);
+  background-color: rgba(255, 68, 0, 0.575);
+}
+
+.course-title {
+  font-weight: bold;
+  color: orangered;
+  margin-top: 1em;
+  padding-left: 2em;
+}
+
+.course-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 2em;
+}
+
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 10, 0.623);
+}
+
+.plan-card-header {
+  font-size: 24px;
+  padding: 1em;
+  width: 400px;
+  margin-top: -1.44em;
+  text-align: center;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.plan-card h2 {
+  padding: 0.2em;
+}
+
+.plan-card p {
+  text-align: center;
+}
+
+.plan-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-green {
+  width: 100%;
+  border: 10px;
+  padding: 0.5em;
+  color: green;
+  border: 1px solid rgba(100, 99, 99, 0.521);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.plan-green span {
+  margin: 0 1em;
+}
+
+.plan-red {
+  width: 100%;
+  border: 10px;
+  padding: 0.5em;
+  color: red;
+  text-decoration: line-through;
+  border: 1px solid rgba(100, 99, 99, 0.521);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.plan-red span {
+  margin: 0 1em;
+}
+
+.enroll {
+  background-color: rgba(6, 145, 6, 0.678);
+  text-align: center;
+  color: white;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.plan-text {
+  padding: 0.5em;
+  text-align: center;
+}
+
+.gold {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 254, 169, 1) 0%,
+    rgba(252, 244, 241, 1) 27%,
+    rgba(255, 218, 58, 1) 100%
+  );
+  color: black;
+}
+
+.silver {
+  background: linear-gradient(
+    90deg,
+    rgba(138, 138, 138, 1) 0%,
+    rgba(252, 244, 241, 1) 27%,
+    rgba(150, 150, 150, 1) 100%
+  );
+  color: black;
+}
+
+.platinium {
+  background: linear-gradient(
+    90deg,
+    rgba(105, 105, 105, 1) 15%,
+    rgba(252, 244, 241, 1) 56%,
+    rgba(74, 71, 71, 1) 100%
+  );
+  color: black;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+iframe {
+  margin: 2em;
+  height: 400px;
+  width: 600px;
+}
+
+.card {
+  width: 600px;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 8, 1, 1) 0%,
+    rgba(194, 54, 0, 1) 45%,
+    rgb(179, 147, 6) 100%
+  );
+  border-radius: 20px;
+}
+
+.card-header {
+  padding: 1em;
+}
+
+.form-outline {
+  margin-bottom: 1em;
+}
+
+.card-footer button {
+  margin-right: 1em;
+}
+
+/* *Media Querys */
+
+@media (max-width: 1000px) {
+  .header-brand {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .course-offer {
+    flex-direction: column;
+  }
+
+  .course-card {
+    flex-direction: column;
+  }
+
+  .offer-card {
+    flex-direction: column;
+  }
+
+  .java {
+    flex-direction: column;
+  }
+
+  .react {
+    flex-direction: column;
+  }
+
+  .python {
+    flex-direction: column;
+  }
+
+  .course-label1 img {
+    width: 200px;
+    height: 100px;
+  }
+
+  /* !about us page----- */
+
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .team-members {
+    flex-direction: column;
+  }
+  .my-card {
+    margin-bottom: 5em;
+  }
+
+  /* ! course page */
+
+  .course-plan {
+    flex-direction: column;
+  }
+
+  .plan-card {
+    margin-bottom: 4em;
+  }
+
+  /* !contact */
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 2em;
+    width: 80%;
+  }
+}
