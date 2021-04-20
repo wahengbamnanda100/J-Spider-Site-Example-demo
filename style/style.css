@@ -636,4 +636,9 @@ iframe {
     margin-bottom: 2em;
     width: 80%;
   }
+
+  .course-label11 img {
+    width: 300px;
+    height: 200px;
+  }
 }
